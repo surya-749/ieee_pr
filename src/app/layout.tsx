@@ -38,17 +38,6 @@ export default function RootLayout({
           'min-h-screen bg-background font-sans antialiased text-foreground'
         )}
       >
-        {/* Persistent UI elements */}
-        <div className="fixed top-6 right-6 z-50 flex flex-col items-end gap-1 font-mono text-xs text-secondary opacity-70 pointer-events-none">
-          <div className="flex items-center gap-2">
-            <span>RAS SYSTEM</span>
-            <div className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            <span className="text-accent">ONLINE</span>
-          </div>
-          <span>CHENNAI, INDIA</span>
-          <span>VIT CAMPUS</span>
-        </div>
-        
         <div className="scan-line z-50" />
         
         {children}
